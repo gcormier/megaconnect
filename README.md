@@ -5,7 +5,7 @@ MegaConnect is a systray app allowing to  control an ESPHome enhanced Megadesk d
 
 [What is ESPHome?](https://esphome.io/)
 
-[What is an ESPHome enhanced megadesk?](https://github.com/gcormier/megaconnect/integration/esphome)
+[What is an ESPHome enhanced megadesk?](https://github.com/gcormier/megaconnect/integration/esphome](https://medium.com/@matthiasschaffer/make-your-ikea-standing-desk-smart-62b8307da8b6)
 
 ## Main Features
 * Define one-click-actions to move your table to any pre-configured position (height) you like
