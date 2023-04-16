@@ -52,7 +52,7 @@ If you plan to run MegaConnect on Linux, need some support and are willing to co
 
 
 ## Configuration
-The MegaConnect configuration file needs to be called "[megaconnect.conf]"(https://github.com/gcormier/megaconnect/blob/main/src/megaconnect.conf) and has to be stored in the same directory as the MegaConnect application. A configuration template can be found in the related directory. 
+The MegaConnect configuration file needs to be called [megaconnect.conf](https://github.com/gcormier/megaconnect/blob/main/src/megaconnect.conf) and has to be stored in the same directory as the MegaConnect application. A configuration template can be found in the related directory. 
 
 During startup of the application, the configuration file is checked. A missing configuration file, incomplete and/or invalid configuration parameter will result in MegaConnect refusing to start and throwing a related error. Error messages are either sent to the system's standard error output and/or to the MegaConnect logfile (megaconnect.log) located in the application's directory. 
 
