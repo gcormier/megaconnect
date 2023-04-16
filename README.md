@@ -62,6 +62,7 @@ The configuration file contains the following configuration sections and paramet
 
 ### [network]
 **url**
+
 DNS or IP address of the esphome device controlling megadesk.
 
 Examples:
