@@ -11,6 +11,8 @@ MegaConnect is a systray app allowing to  control an ESPHome enhanced Megadesk d
 * Define one-click-actions to move your table to any pre-configured position (height) you like
 * Define one-click-actions to make your table automatically change its height following what ever pattern you like (i.e. 30 min sitting, 30 min standing,... )
 
+<img  src="/docs/screenshot_megaconnect.jpg" width=70%/>
+
 ## Preconditions
 * A Megadesk installed on your Bekant table. You can order your Megadesk on [Tindies](https://www.tindie.com/products/gcormier/megadesk/).
 * An ESPHome enabled microcontroller connected to your Megadesk. [How to get your own ESPHome controller](https://). 
