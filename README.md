@@ -75,7 +75,7 @@ List of positions that can be triggered from megaconnect. A position can either 
 Format: **height=description**
 
 where **height** has one of the following formats:
-* for stored positions: **p[Number of memory position in megadesk]**. Valid value range: all stored positions in megadesk. Please take into account that the first memory position on megadesk is number 2 (so there is no "p1="). If megadesk's memory is lost or reset, these positions will not work. It's therefore recommended to use one of two the following configuration options.
+* for stored positions: **p[Number of memory position in megadesk]**. Valid value range: all stored positions in megadesk. Please take into account that the first memory position on megadesk is number 2 (so there is no "p1="). If megadesk's memory is lost or reset, these positions will not work. It's therefore recommended to use one of the two following configuration options:
 * for height in cm: **c[height in cm]**. Valid value range: 59-118, only integers allowed.
 * for height in inches: **i[height in inches]** Valid value range: 23-47, only integers.
 
