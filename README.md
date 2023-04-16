@@ -61,7 +61,7 @@ During startup of the application, the configuration file is checked. A missing 
 The configuration file contains the following configuration sections and parameter:
 
 ### [network]
-#### url
+**url**
 DNS or IP address of the esphome device controlling megadesk.
 
 Examples:
