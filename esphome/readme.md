@@ -20,5 +20,5 @@ _esphome run megadesk.yaml_
 
 ## Keep in mind
 * ESPHome does not offer HTTPs support. This means, communication between the client app and the ESP board is unencrypted. 
-* You could add a username/password protection to the webserver to add a certain level of protection, however, as basicauth is used, passwords are not encrypted and transported over non-secure http. 
-* So bottom line: Consider your megadesk to be publicly acccessible, at least within your LAN. 
+* You could add a username/password protection to the webserver to add a certain level of protection, however, as basicauth is used, passwords are not encrypted and transported over non-encrypted http. 
+* So bottom line: Consider your megadesk to be publicly acccessible, at least within your WLAN. 
