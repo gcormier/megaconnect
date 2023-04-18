@@ -69,6 +69,16 @@ Examples:
 * url=http://megadesk.myhome.com
 * url=http://192.168.0.20
 
+### [step]
+**step**
+
+Defines the fixed distance to move the table up or down with a single click on the related up or down button. 
+Value needs to be an integer in the range of 139 to 6640, where 139 approx equals 1.32 cm/0.52 inches
+step=139
+
+Example:
+* step=139
+
 ### [positions]
 List of positions that can be triggered from megaconnect. A position can either be a memory position in megadesk, a height in cm or a height in inches.
 
