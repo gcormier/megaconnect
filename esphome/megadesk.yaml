@@ -25,6 +25,7 @@ api:
 ota:
   password: ""
 
+# Add your ssid and WLAN password here
 wifi:
   ssid: ""
   password: ""
@@ -41,8 +42,11 @@ web_server:
 uart:
   id: uart_desk
   baud_rate: 115200
+# In case you are not using the D0/D1 pins on your ESP controller, change to the pins you actually use
   tx_pin: D0
   rx_pin: D1
+
+# Don't touch below as long as you don't know what you're doing. Misconfiguration might lead to megaconnect not working.
 
 sensor:
   - platform: custom
@@ -111,18 +115,42 @@ number:
           sprintf(buf, "<=%i,.", int(x));
           std::string s = buf;
           return std::vector<unsigned char>( s.begin(), s.end() );
+  - platform: template
+    name: "Megadesk relative Height up (raw)"
+    id: megadesk_relative_height_up_raw
+    internal: true
+    min_value: 0
+    max_value: 6640
+    step: 1
+    mode: slider
+    update_interval: never
+    lambda: |-
+      return id(megadesk_raw).state;
+    set_action:
+      - uart.write: !lambda |-
+          char buf[20];
+          sprintf(buf, "<+%i,.", int(x));
+          std::string s = buf;
+          return std::vector<unsigned char>( s.begin(), s.end() );
+  - platform: template
+    name: "Megadesk relative Height down (raw)"
+    id: megadesk_relative_height_down_raw
+    internal: true
+    min_value: 0
+    max_value: 6640
+    step: 1
+    mode: slider
+    update_interval: never
+    lambda: |-
+      return id(megadesk_raw).state;
+    set_action:
+      - uart.write: !lambda |-
+          char buf[20];
+          sprintf(buf, "<-%i,.", int(x));
+          std::string s = buf;
+          return std::vector<unsigned char>( s.begin(), s.end() );
 
 button:
-  - platform: template
-    name: "5cm up"
-    on_press:
-      then:
-        - uart.write: "<+520.."
-  - platform: template
-    name: "5cm down"
-    on_press:
-      then:
-        - uart.write: "<-520.."
   - platform: template
     name: "Desk Position 2"
     on_press:
