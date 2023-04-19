@@ -18,7 +18,7 @@ MegaConnect is a systray app allowing to  control an ESPHome enhanced Megadesk d
 * An ESPHome enabled microcontroller connected to your Megadesk. [How to get your own ESPHome controller](https://). 
 * Windows (10 and higher) or MacOS or Linux
 * A Python runtime environment. Python can be downloaded from [python.org](https://www.python.org/downloads/).
-* For Windows users alternatively a [binary](https://github.com/gcormier/megaconnect/binaries) is provided which does not require a Python installation
+* For Windows users alternatively a [binary](https://github.com/gcormier/megaconnect/binary) is provided which does not require a Python installation
 
 ## Installation
 
