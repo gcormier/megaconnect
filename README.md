@@ -26,6 +26,7 @@ MegaConnect is a systray app allowing to  control an ESPHome enhanced Megadesk d
 On Windows, user can either run the Python Script or use the Binary. **Binary is recommended** for users not familiar with Python. 
 #### Binary
 * Download the MegaConnect Binary from https://github.com/gcormier/megaconnect/tree/main/binary.
+* Download the whole directory including all subdirectories.
 * Customize the configuration file `megaconnect.conf` inside the application directory.
 * To run MegaConnect, execute `MegaConnect.exe` inside the application directory.
 * You can also add a shortcut to  "MegaConnect.exe" to your Windows autostart directory to automatically start it with Windows.
