@@ -1,7 +1,7 @@
 # MegaConnect
 MegaConnect is a systray app allowing to  control an ESPHome enhanced Megadesk directly from the desktop. It is available for Windows, MacOS and Linux.
 
-[What is megadesk?](https://github.com/gcormier/megadesk/)
+[What is megadesk?](https://github.com/gcormier/megadesk/#readme)
 
 [What is ESPHome?](https://esphome.io/)
 
