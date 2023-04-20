@@ -6,3 +6,5 @@ Once started, the Auto Position Change goes to sleep for the defined time and up
 ### Does the Auto Position Change automatically stop if i move the table manually?
 No, once activated, the Auto Position Change runs as long as you do not terminate it manually. So even if you move the table manually or using the ESPHome Web Interface, the Auto Position Change goes on. 
 
+### Does MegaConnect track manual position changes?
+No, MegaConnect currently does not track any actions happening on Megedesk. In addition, MegaConnect currently does not implement a heartbeat, meaning, MegaConnect does not detect if Megadesk or ESPHome is not available. 
