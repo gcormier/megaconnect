@@ -74,8 +74,7 @@ Examples:
 **step**
 
 Defines the fixed distance to move the table up or down with a single click on the related up or down button. 
-Value needs to be an integer in the range of 139 to 6640, where 139 approx equals 1.32 cm/0.52 inches
-step=139
+Value needs to be an integer in the range of 139 to 6640, where 139 approx equals 1.32 cm/0.52 inches.
 
 Example:
 * step=139
